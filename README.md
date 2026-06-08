@@ -9,6 +9,7 @@ This project focuses on analysing the Maven Fuzzy Factory e-commerce dataset usi
 The goal is to transform raw business data into actionable insights that can support data-driven decision-making and improve overall business performance.
 ________________________________________
 2. Tools Used
+3. 
 •	Python – Data Analysis 
 •	Pandas – Data Cleaning and Manipulation  
 •	Matplotlib – Data Visualization 
@@ -17,12 +18,12 @@ ________________________________________
 •	Jupyter Notebook – Analysis Environment 
 ________________________________________
 3. Dataset
-Source
+Source:
 Maven Analytics – Fuzzy Factory Dataset
-Description
+Description:
 The project utilizes multiple related tables containing information about customer transactions, website activity, products, and refunds.
-Main Tables
-Website Sessions
+Main Tables:
+# Website Sessions
 Contains website visitor session information:
 •	website_session_id 
 •	created_at 
@@ -31,7 +32,7 @@ Contains website visitor session information:
 •	utm_campaign 
 •	device_type 
 •	is_repeat_session 
-Orders
+# Orders
 Contains customer order information:
 •	order_id 
 •	website_session_id 
@@ -40,18 +41,18 @@ Contains customer order information:
 •	items_purchased 
 •	price_usd 
 •	cogs_usd 
-Order Items
+# Order Items
 Contains product-level order details:
 •	order_item_id 
 •	order_id 
 •	product_id 
 •	item_price_usd 
 •	cogs_usd 
-Products
+# Products
 Contains product catalog information:
 •	product_id 
 •	product_name 
-Refunds
+# Refunds
 Contains refund information:
 •	order_item_refund_id 
 •	order_item_id 
@@ -59,7 +60,7 @@ Contains refund information:
 ________________________________________
 4. Data Preparation
 5. 
-Data Cleaning
+$ Data Cleaning
 
 The following preprocessing steps were performed:
 1.	Imported all datasets using Pandas. 
@@ -69,7 +70,7 @@ The following preprocessing steps were performed:
 5.	Renamed merged columns for better readability. 
 6.	Created derived metrics for analysis.
 7.	
-Feature Engineering
+$ Feature Engineering
 
 Created additional columns:
 
