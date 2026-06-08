@@ -58,16 +58,21 @@ Contains refund information:
 •	refund_amount_usd 
 ________________________________________
 4. Data Preparation
+5. 
 Data Cleaning
+
 The following preprocessing steps were performed:
 1.	Imported all datasets using Pandas. 
 2.	Checked for missing values and duplicates. 
 3.	Converted date columns into datetime format. 
 4.	Extracted Year, Month, and Day from order dates. 
 5.	Renamed merged columns for better readability. 
-6.	Created derived metrics for analysis. 
+6.	Created derived metrics for analysis.
+7.	
 Feature Engineering
+
 Created additional columns:
+
 •	Year 
 •	Month 
 •	Day 
@@ -76,45 +81,56 @@ Created additional columns:
 •	Revenue Metrics 
 ________________________________________
 5. Steps Followed
+6. 
 1. Data Understanding
+2. 
 •	Examined all tables 
 •	Understood relationships between tables 
-•	Created a data model 
-2. Data Cleaning
+•	Created a data mode
+
+4. Data Cleaning
 •	Removed inconsistencies 
 •	Converted data types 
-•	Handled duplicate records 
-3. Data Merging
+•	Handled duplicate records
+
+6. Data Merging
 Merged tables using:
 •	order_id 
 •	product_id 
 •	website_session_id 
 to create a comprehensive sales dataset.
-4. Exploratory Data Analysis (EDA)
+
+8. Exploratory Data Analysis (EDA)
+9. 
 Univariate Analysis
 •	Product distribution 
 •	Traffic source distribution 
-•	Visitor type distribution 
+•	Visitor type distribution
+
 Bivariate Analysis
 •	Revenue by product 
 •	Orders by traffic source 
 •	Refunds by product 
+
 Multivariate Analysis
 •	Product performance over time 
 •	Revenue trends 
 •	Correlation analysis 
-5. Interactive Visualizations
+
+11. Interactive Visualizations
 Created interactive charts using Plotly:
 •	Monthly Revenue Trend 
 •	Product Conversion Funnel 
 •	Traffic Source Analysis 
 •	Refund Analysis 
 •	Product Performance Dashboard 
-•	Visitor Distribution Analysis 
-6. Business Insight Generation
+•	Visitor Distribution Analysis
+
+13. Business Insight Generation
 Analyzed patterns and translated findings into business recommendations.
 ________________________________________
 6. Key Insights
+7. 
 Revenue Trend
 •	Revenue increased significantly during the final months of the year. 
 •	November and December recorded the highest sales performance. 
@@ -139,24 +155,28 @@ Correlation Analysis
 ________________________________________
 7. Visualizations
 The project includes the following visualizations:
-Revenue Analysis
+Revenue Analysis<img width="917" height="330" alt="image" src="https://github.com/user-attachments/assets/5f4ff9d4-f76e-48f0-a2c5-8c001cead4a0" />
+
 •	Monthly Revenue Trend (Interactive Line Chart) 
 Product Analysis
 •	Product Revenue Contribution 
 •	Monthly Orders by Product Heatmap 
 •	Product Conversion Funnel 
 Customer Analysis
-•	New vs Repeat Visitor Distribution 
+•	New vs Repeat Visitor Distribution <img width="778" height="365" alt="image" src="https://github.com/user-attachments/assets/7bd92aa1-ec1f-4f9a-bff1-792071dbb790" />
+
 •	Device Type Distribution 
 Marketing Analysis
 •	Traffic Source Distribution 
 •	Conversion Rate by Traffic Source  
-Refund Analysis 
+Refund Analysis <img width="900" height="294" alt="image" src="https://github.com/user-attachments/assets/1286a1ea-fc2f-4c73-9215-eaa5b5fdd779" />
+
 Refund Rate by Product 
 
 
 Statistical Analysis
-•	Correlation Heatmap  
+•	Correlation Heatmap  <img width="678" height="291" alt="image" src="https://github.com/user-attachments/assets/aab36481-317a-4d82-be77-7eb7c5329e62" />
+
 ________________________________________
 8. Files Included
 website_sessions.csv
