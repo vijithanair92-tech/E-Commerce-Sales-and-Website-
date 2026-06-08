@@ -9,12 +9,17 @@ This project focuses on analysing the Maven Fuzzy Factory e-commerce dataset usi
 The goal is to transform raw business data into actionable insights that can support data-driven decision-making and improve overall business performance.
 ________________________________________
 2. Tools Used
-3. 
+   
 •	Python – Data Analysis 
+
 •	Pandas – Data Cleaning and Manipulation  
-•	Matplotlib – Data Visualization 
+
+•	Matplotlib – Data Visualization
+
 •	Seaborn – Statistical Visualizations 
+
 •	Plotly – Interactive Visualizations 
+
 •	Jupyter Notebook – Analysis Environment 
 ________________________________________
 3. Dataset
